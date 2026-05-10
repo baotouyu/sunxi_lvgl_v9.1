@@ -15,7 +15,7 @@ compile_commands.json
 *.d
 
 # Runtime/core dumps
-core
+/core
 core.*
 *.log
 

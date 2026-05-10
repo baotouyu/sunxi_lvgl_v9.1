@@ -1,0 +1,16 @@
+{
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/f133/compile_commands.json",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/lvgl",
+        "${workspaceFolder}/lvgl/include",
+        "${workspaceFolder}/build/f133/lvgl",
+        "${workspaceFolder}/f133_port/include"
+    ],
+    "C_Cpp.default.defines": [
+        "LV_CONF_INCLUDE_SIMPLE",
+        "LV_KCONFIG_IGNORE",
+        "LV_LVGL_H_INCLUDE_SIMPLE"
+    ],
+    "C_Cpp.default.compilerPath": "/home/yuwei/samba/yuwei_work/chip_sdk/Allwinner/D1x/Tina-Linux/prebuilt/gcc/linux-x86/riscv/toolchain-thead-glibc/riscv64-glibc-gcc-thead_20200702/bin/riscv64-unknown-linux-gnu-gcc"
+}
